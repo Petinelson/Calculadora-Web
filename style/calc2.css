@@ -1,0 +1,60 @@
+
+.geral{
+    width: 300px;
+    margin: 200px auto;
+    background-color: aqua;
+    padding: 30px;
+    border: 1px solid black;    
+}
+
+.resultado{
+    /*
+    text-align: right;
+    height: 60px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    */
+    display: grid;
+    place-items: center;
+    justify-content: end;
+    height: 60px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding-right: 10px;
+
+}
+
+.resultado a{
+	font-size: 36px;
+	text-decoration: none:
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    
+}
+
+.botao{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(124, 50, 50, 0.1);
+    border: 1px solid black;
+    
+    display: grid;
+    place-items: center; 
+    justify-content: center;
+    margin-bottom: 15px;
+
+    font-size: 24px;
+}
+
+.botao:hover{
+    background-color: rgba(124, 50, 50, 0.5);
+}
+
+.botao:active{
+    background-color: rgba(124, 50, 50, 1);
+    color: aliceblue;
+}
